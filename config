@@ -81,6 +81,12 @@ bind j select-pane -D
 bind k select-pane -U
 bind l select-pane -R
 
+# terminator like pane switching
+bind-key -rn M-Left select-pane -L
+bind-key -rn M-Right select-pane -R
+bind-key -rn M-Up select-pane -U
+bind-key -rn M-Down select-pane -D
+
 # reload config
 bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
 

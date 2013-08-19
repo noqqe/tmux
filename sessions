@@ -1,4 +1,4 @@
-new -s Sessions -n irc bash
+new -s NOC -n irc bash
 neww -n finch finch
 neww -n mail "mutt-patched -F ~/.mutt/flo-noqqe.de"
 neww -n root "sudo -s"
