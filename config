@@ -1,5 +1,7 @@
 # status bar
 set-option -g status-utf8 on
+setw -g utf8 on
+set-option -g allow-rename off
 
 
 # https://github.com/seebi/tmux-colors-solarized/blob/master/tmuxcolors-256.conf
@@ -36,8 +38,8 @@ set -g status-interval 1
 set -g status-justify centre # center align window list
 set -g status-left-length 20
 set -g status-right-length 140
-set -g status-left '#[fg=green]#H #[fg=black]• #[fg=green,bright]#(uname -r | cut -c 1-6)#[default]'
-set -g status-right '#[fg=red,dim,bg=default]#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",") #[fg=white,bg=default]%a %Y-%m-%d %H:%M:%S'
+set -g status-left '#[fg=green,bright]#H #[fg=blue] #[fg=green,bright]#(uname -r | cut -c 1-6)#[default]'
+set -g status-right '#[fg=green,bright]#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",") #[fg=white,bg=default]%a %Y-%m-%d %H:%M:%S'
 
 # C-b is not acceptable -- Vim uses it
 set-option -g prefix C-a

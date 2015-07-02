@@ -1,11 +1,11 @@
 new -s NOC -n irc bash
-neww -n finch finch
-neww -n mail "mutt-patched -F ~/.mutt/flo-noqqe.de"
-neww -n root "sudo -s"
-neww -n task "task shell"
-neww -n uberspace bash
+neww -n mail bash
+neww -n task bash
+neww -n root bash
+neww -n jrnl bash
+neww -n cmddocs bash
 neww -n o0 bash
-neww -n o0 bash
+neww -n troll bash
 neww -n bash bash
-neww -n noris "mutt-patched -F ~/.mutt/fbaumann-noris.de"
+neww -n bash bash
 selectw -t 0
