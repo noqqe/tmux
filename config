@@ -105,3 +105,6 @@ set -g mode-mouse off
 
 # color
 set -g default-terminal "screen-256color"
+
+# history
+set-option -g history-limit 10000
