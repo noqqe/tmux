@@ -1,10 +1,11 @@
-new -s NOC -n bash bash
-neww -n bash bash
-neww -n bash bash
-neww -n root "sudo -s"
-neww -n bash bash
-neww -n bash bash
+new -s NOC -n irc bash
+neww -n mail bash
+neww -n task bash
+neww -n root bash
+neww -n jrnl bash
+neww -n cmddocs bash
 neww -n o0 bash
-neww -n o0 bash
+neww -n troll bash
+neww -n bash bash
 neww -n bash bash
 selectw -t 0
