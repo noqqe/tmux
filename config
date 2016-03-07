@@ -147,10 +147,10 @@ set -g status-right '#[fg=colour121]#H#[fg=white] %d.%m.%y %H:%M:%S '
 set -g status-right-length 50
 set -g status-left-length 20
 
-setw -g window-status-current-fg colour118
-setw -g window-status-current-bg colour238
+setw -g window-status-current-fg colour97
+setw -g window-status-current-bg colour237
 setw -g window-status-current-attr bold
-setw -g window-status-current-format ' #I#[fg=colour250]:#[fg=colour255]#W#[fg=colour118]#F '
+setw -g window-status-current-format ' #I#[fg=colour250]:#[fg=colour255]#W#[fg=colour97]#F '
 
 setw -g window-status-fg colour97
 setw -g window-status-bg colour235
