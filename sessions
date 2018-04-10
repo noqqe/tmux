@@ -1,11 +1,9 @@
-new -s NOC -n irc bash
-neww -n mail bash
-neww -n task bash
-neww -n root bash
-neww -n jrnl bash
-neww -n cmddocs bash
-neww -n o0 bash
-neww -n troll bash
-neww -n bash bash
-neww -n bash bash
+new -s default -n irc fish
+neww -n fish fish
+neww -n fish fish
+neww -n fish fish
+neww -n fish fish
+neww -n fish fish
+neww -n fish fish
+neww -n fish fish
 selectw -t 0

@@ -1,4 +1,3 @@
-
 # C-b is not acceptable -- Vim uses it
 set-option -g prefix C-a
 bind-key C-a last-window
@@ -47,8 +46,6 @@ bind s source-file ~/.tmux/sessions
 # auto window rename
 set-window-option -g automatic-rename
 
-# rm mouse mode fail
-set -g mode-mouse off
 
 # color
 set -g default-terminal "screen-256color"
@@ -56,10 +53,6 @@ set -g default-terminal "screen-256color"
 # history
 set-option -g history-limit 1000
 
-# status bar
-set-option -g status-utf8 on
-setw -g utf8 on
-set-option -g allow-rename off
 
 # loud or quiet?
 set-option -g visual-activity off
@@ -69,6 +62,14 @@ set-option -g visual-silence off
 set-window-option -g monitor-activity off
 set-window-option -g monitor-content on
 set-option -g bell-action none
+
+# rm mouse mode fail
+set -g mode-mouse off
+
+# status bar
+set-option -g status-utf8 on
+setw -g utf8 on
+set-option -g allow-rename off
 
 ######################
 ### DESIGN CHANGES ###
@@ -166,3 +167,4 @@ set -g message-attr bold
 set -g message-fg colour232
 set -g message-bg colour166
 
+# }
